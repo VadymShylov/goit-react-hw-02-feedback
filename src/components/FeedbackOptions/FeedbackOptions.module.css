@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 22px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #B94629;
+   text-decoration: none;
+   border-color: #B94629;
+  outline: none;
+  border-radius: 10px;
+  background-color: #E3DEC1;
+ cursor: pointer;
+  transition: all 250ms var(--timingFn);
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  color: #E3DEC1;
+  background-color: #B94629;
+}
